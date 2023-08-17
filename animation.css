@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.skye img{
+    width: 1270.6px;
+    height: 250px;
+}
+
+.birds{
+    width: 200px;
+    height: 170px;
+    margin-top: -210px;
+    margin-left: 200px;
+    padding-bottom: 60px;
+}
+
+.aircraft{
+    margin-top: -300px;
+    padding-bottom: 0px;
+    margin-left: -360px;
+}
+
+.air{
+    animation-name: air;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 40;
+}
+
+@keyframes air{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(1500px);
+}
+}
+
+.scene img{
+    width: 1267.6px;
+    height: 270px;
+    margin-top: -280px;
+}
+
+.helicopter img{
+    height: 200px;
+    width: 200px;
+    margin-top: -80px;
+    margin-left: -198px;
+}
+
+.heli{
+    animation-name: heli;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 20;
+}
+
+@keyframes heli{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(1500px);
+}
+}
+
+.girl{
+    margin-top:-195px;
+    margin-left: -198px;
+}
+
+.pedes{
+    width: 150px;
+    height: 150px;
+}
+
+.pedes{
+    animation-name: pedes;
+    animation-duration: 11s;
+    animation-direction: linear;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 20;
+}
+
+@keyframes pedes{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(1500px);
+}
+}
+
+.boy{
+    margin-top:-160px;
+    margin-left: -198px;
+}
+
+.guy{
+    width: 150px;
+    height: 150px;
+}
+
+.guy{
+    animation-name: guy;
+    animation-duration: 11s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 20;
+}
+
+@keyframes guy{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(1500px);
+}
+}
+
+
+.bikeman{
+    margin-top:-50px;
+    margin-left: -198px;
+}
+
+.bike{
+    width: 160px;
+    height: 170px;
+}
+
+.bike{
+    animation-name: bike;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 20;
+}
+
+@keyframes bike{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(1500px);
+}
+}
+
+
+.car{
+    margin-top:-172px;
+    margin-left: -198px;
+}
+
+.vehicle{
+    width: 200px;
+    height: 200px;
+}
+
+.vehicle{
+    animation-name: vehicle;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 20;
+}
+
+@keyframes vehicle{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(1500px);
+}
+}
+
+
+.road{
+    border-top: 10px solid #58F758;
+    margin-top: -60px;
+    width: 1263.65px;
+    height: 270px;
+    border-bottom: 0px solid 313030;
+}
+
+.lights{
+    width: 100px;
+    height: 145px;
+}
+
+.light{
+    margin-top: -270px;
+    margin-left: 580px;
+}
+
+
+.lights2{
+    width: 100px;
+    height: 145px;
+}
+
+.light2{
+    margin-top: -150px;
+    margin-left: 930px;
+}
+
+.lorry{
+    margin-top:-406px;
+    margin-left: -198px;
+}
+
+.lorryy{
+    width: 200px;
+    height: 200px;
+}
+
+.lorryy{
+    animation-name: lorryy;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 20;
+}
+
+@keyframes lorryy{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(1500px);
+}
+}
+
+
+.motor{
+    margin-top: 40px;
+    margin-left: -198px;
+}
+
+.motorr{
+    width: 200px;
+    height: 75px;
+}
+
+.motorr{
+    animation-name: motorr;
+    animation-duration: 1s;
+    animation-direction: linear;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 20;
+}
+
+@keyframes motorr{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(1500px);
+}
+}
+
+.road img{
+    width: 1263.6px;
+    height: 138px;
+}
+
+.road2 img{
+    border-top: 55px solid #313030;
+    width: 1263.6px;
+    height: 180px;
+}
+
+.lights3{
+    width: 100px;
+    height: 145px;
+}
+
+.light3{
+    margin-top: -32px;
+    margin-left: 50px;
+}
+
+.lights4{
+    width: 100px;
+    height: 145px;
+}
+
+.light4{
+    margin-top: -150px;
+    margin-left: 350px;
+}
+
+.bicycle{
+    margin-top:-150px;
+    margin-left: -198px;
+}
+
+.cycler{
+    width: 150px;
+    height: 150px;
+}
+
+.cycler{
+    animation-name: cycler;
+    animation-duration: 7s;
+    animation-direction: linear;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 20;
+}
+
+@keyframes cycler{
+from{
+    transform: translateX(0px);
+}
+to{
+    transform: translateX(1500px);
+}
+}
